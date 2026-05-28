@@ -292,7 +292,7 @@ export default function Home() {
             Start Free Trial
           </a>
           <a 
-            href="https://wa.me/919999999999?text=Hi%20OFFFIT!%20I%20want%20to%20join%20the%2030-day%20Weight%20Loss%20Challenge." 
+            href="https://wa.me/+918533002305?text=Hi%20OFFFIT!%20I%20want%20to%20join%20the%2030-day%20Weight%20Loss%20Challenge." 
             className="flex items-center justify-center bg-gradient-pink-purple px-5 py-2.5 rounded-full text-xs sm:text-sm font-bold text-white shadow-lg hover:shadow-[0_0_25px_rgba(255,51,136,0.5)] transition-all hover:scale-105"
           >
             Join Challenge Now <ArrowRight className="w-4 h-4 ml-1.5" />
@@ -1225,7 +1225,7 @@ export default function Home() {
               </div>
 
               <a 
-                href="https://wa.me/919999999999?text=Hi%20OFFFIT!%20I%20am%20interested%20in%20securing%20a%20Premium%201-on-1%20Personal%20Trainer%20slot." 
+                href="https://wa.me/+918533002305?text=Hi%20OFFFIT!%20I%20am%20interested%20in%20securing%20a%20Premium%201-on-1%20Personal%20Trainer%20slot." 
                 className="block w-full py-4 rounded-full bg-gradient-pink-purple font-black text-xs uppercase tracking-widest text-white shadow-lg hover:shadow-[0_0_20px_rgba(139,92,246,0.4)] transition-all hover:scale-105"
               >
                 Apply For Slot Now
