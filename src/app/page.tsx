@@ -318,7 +318,7 @@ export default function Home() {
             <div className="space-y-4">
               <h1 className="text-4xl sm:text-5xl md:text-6xl font-black tracking-tight leading-[1.1] text-gradient">
                 🌟 JOIN OUR 30-DAY <br className="hidden sm:inline" />
-                <span className="text-transparent bg-clip-text bg-gradient-pink-purple">WEIGHT LOSS</span> CHALLENGE! 🌟
+                <span className="text-gradient-pink-purple">WEIGHT LOSS</span> CHALLENGE! 🌟
               </h1>
               <p className="text-2xl sm:text-3xl font-extrabold text-[#f472b6] tracking-tight">
                 🎯 Lose 4-5 Kgs or Get <span className="underline decoration-[#ff3388] decoration-4">50% Money Back!</span> 💯
@@ -390,6 +390,7 @@ export default function Home() {
                   src="/live_zoom_workout.png" 
                   alt="Live Women Zoom Fitness Class" 
                   fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   style={{ objectFit: "cover" }}
                   className="hover:scale-105 transition-all duration-700 opacity-90"
                   priority
@@ -441,25 +442,25 @@ export default function Home() {
       <section className="bg-slate-950/70 border-y border-white/5 py-12 px-6">
         <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           <div className="space-y-1">
-            <span className="block text-4xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-pink-purple">
+            <span className="block text-4xl md:text-5xl font-black text-gradient-pink-purple">
               {membersCount.toLocaleString()}+
             </span>
             <span className="text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-400">Happy Female Members 👭</span>
           </div>
           <div className="space-y-1">
-            <span className="block text-4xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-pink-purple">
+            <span className="block text-4xl md:text-5xl font-black text-gradient-pink-purple">
               {kgsCount.toLocaleString()}+
             </span>
             <span className="text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-400">Total Kilograms Lost 🏃‍♀️</span>
           </div>
           <div className="space-y-1">
-            <span className="block text-4xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-pink-purple">
+            <span className="block text-4xl md:text-5xl font-black text-gradient-pink-purple">
               {transCount}+
             </span>
             <span className="text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-400">Life Transformations 🌟</span>
           </div>
           <div className="space-y-1">
-            <span className="block text-4xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-pink-purple">
+            <span className="block text-4xl md:text-5xl font-black text-gradient-pink-purple">
               4.9/5 ⭐
             </span>
             <span className="text-xs sm:text-sm font-bold uppercase tracking-wider text-slate-400">Average Review Rating ❤️</span>
@@ -479,6 +480,7 @@ export default function Home() {
                   src="/live_zoom_workout.png" 
                   alt="Women Supportive Community Batches" 
                   fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   style={{ objectFit: "cover" }}
                   className="opacity-80"
                 />
@@ -498,7 +500,7 @@ export default function Home() {
             </div>
             
             <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight">
-              A Warm, Supportive, <span className="text-transparent bg-clip-text bg-gradient-pink-purple">Females-Only</span> Fitness Family 👭
+              A Warm, Supportive, <span className="text-gradient-pink-purple">Females-Only</span> Fitness Family 👭
             </h2>
             
             <p className="text-slate-300 leading-relaxed text-base sm:text-lg">
@@ -552,7 +554,7 @@ export default function Home() {
           <div className="text-center space-y-4">
             <span className="text-xs font-bold tracking-widest text-[#ff3388] uppercase block">CHOOSE YOUR TARGET GOAL</span>
             <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight">
-              Personalized Workouts Tailored For <span className="text-transparent bg-clip-text bg-gradient-pink-purple">Your Body Goals</span> 🎯
+              Personalized Workouts Tailored For <span className="text-gradient-pink-purple">Your Body Goals</span> 🎯
             </h2>
             <p className="text-slate-300 text-sm max-w-xl mx-auto">
               Our program adapts to your specific physical condition, metabolism, and lifestyle goals.
@@ -859,6 +861,7 @@ export default function Home() {
                   src="/personalized_diet.png" 
                   alt="Personalized Healthy Indian Food Diet" 
                   fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   style={{ objectFit: "cover" }}
                   className="opacity-90"
                 />
@@ -1192,7 +1195,7 @@ export default function Home() {
 
               <h2 className="text-3xl sm:text-4xl font-black tracking-tight text-white leading-tight">
                 Dedicated Personal Trainer <br />
-                <span className="text-transparent bg-clip-text bg-gradient-pink-purple">For VIP Fast-Track Results</span>
+                <span className="text-gradient-pink-purple">For VIP Fast-Track Results</span>
               </h2>
 
               <p className="text-slate-300 text-sm leading-relaxed">
@@ -1298,6 +1301,7 @@ export default function Home() {
                   src={transformations[activeTransformation].image} 
                   alt="Women Weight Loss Before After Transformation" 
                   fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   style={{ objectFit: "cover" }}
                   className="opacity-95"
                 />
@@ -1342,6 +1346,7 @@ export default function Home() {
                 src="/live_zoom_workout.png" 
                 alt="Video Testimonials Preview" 
                 fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 style={{ objectFit: "cover" }}
                 className="opacity-40 group-hover:scale-105 transition-all duration-700"
               />
@@ -1700,7 +1705,7 @@ export default function Home() {
 
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-black tracking-tight text-white leading-tight">
             “Your transformation journey <br className="hidden sm:inline" />
-            starts <span className="text-transparent bg-clip-text bg-gradient-pink-purple">right here, today</span> 💖”
+            starts <span className="text-gradient-pink-purple">right here, today</span> 💖”
           </h2>
 
           <p className="text-slate-300 text-base sm:text-lg max-w-xl mx-auto leading-relaxed">
